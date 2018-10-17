@@ -24,7 +24,7 @@ class TestHW6(unittest.TestCase):
 
     def test_countWord(self):
         """ test count word on the first file """
-        self.assertEqual(countWord("regex_sum_42.txt", "computer"),15)
+        self.assertEqual(countWord("regex_sum_42.txt", "computer"),21)
 
     def test_listURLs(self):
         """ test list URLs on the first file """
